@@ -13,17 +13,31 @@ console.log(pessoas[0].nome);
 //               0       1        2    
 const alunos = ['Luiz', 'Maria', 'João'];
 
-alunos[0] = 'Eduardo';//vai substituir Luiz por Eduardo
+alunos[0] = 'Eduardo';//vai substituir/alterar Luiz por Eduardo
 alunos[3] = 'Luiza';// vai adcionar o nome Luiza do indice 3
 
 console.log(alunos.length)// tamanho do array
 
-alunos[alunos.length] = "Fernando";
-alunos[alunos.length] = "Luana";
-alunos[alunos.length] = "Fábio";
+// alunos[alunos.length] = "Fernando";//adciona no fim
+// alunos[alunos.length] = "Luana";
+// alunos[alunos.length] = "Fábio";
 
 
 console.log(alunos);
+
+alunos.push("Otávio");//vai adcionar no final do array
+alunos.push("Maria");
+
+alunos.unshift("Eduarda");//vai adcionar no início do array
+
+
+const removido = alunos.pop();//removendo no final
+console.log(removido)
+
+const removido2 = alunos.shift();//removendo no início
+console.log(removido2);
+
+
 
 
 
