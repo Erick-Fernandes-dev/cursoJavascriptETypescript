@@ -11,7 +11,7 @@ console.log(`${umaString} em um lindo dia.`);// mais recomendado de se usar
 
 console.log()
 
-//saber qual o index da string
+//saber qual o indece da string
 console.log(umaString2.indexOf('texto'));
 console.log(umaString2.indexOf('o', 3));
 
@@ -23,16 +23,16 @@ console.log();
 // EXPRESSOES REGULARES
 
 /*
-macth -> Corresponde a uma string com uma expressão regular e 
+macth() -> Corresponde a uma string com uma expressão regular e 
 retorna uma matriz contendo os resultados dessa pesquisa.
 
-search -> Encontra a primeira correspondência de substring em
+search() -> Encontra a primeira correspondência de substring em
 uma pesquisa de expressão regular
 
-replace -> Substitui o texto em uma string, usando uma expressão
+replace() -> Substitui o texto em uma string, usando uma expressão
 regular ou string de pesquisa.
 
-slice -> Retorna uma seção de uma string, ela corta uma string em
+slice() -> Retorna uma seção de uma string, ela corta uma string em
 determinada posicao
 
 
@@ -46,7 +46,7 @@ console.log(umaString2.replace(/Outro/, /Um/));
 
 let textoString = "Um rato roeu a roupa do rei de roma";
 
-console.log(umaString2.replace(/r/g, '#'));// g --> ele vai trocar todos por jogo da velha
+console.log(umaString2.replace(/r/g, '#'));// g --> ele vai trocar todos os 'r' por jogo da velha
 console.log(umaString2.length);// tamanho da string
 
 console.log(umaString2.slice(2, 6));
