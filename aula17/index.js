@@ -22,7 +22,6 @@ console.log(alunos.length)// tamanho do array
 // alunos[alunos.length] = "Luana";
 // alunos[alunos.length] = "Fábio";
 
-
 console.log(alunos);
 
 alunos.push("Otávio");//vai adcionar no final do array
@@ -30,12 +29,30 @@ alunos.push("Maria");
 
 alunos.unshift("Eduarda");//vai adcionar no início do array
 
+console.log("================================================================================================================")
 
 const removido = alunos.pop();//removendo no final
 console.log(removido)
 
 const removido2 = alunos.shift();//removendo no início
 console.log(removido2);
+
+console.log("================================================================================================================")
+
+delete alunos[1];
+console.log(alunos)
+
+console.log("================================================================================================================")
+
+console.log(alunos[50])//undefined
+
+console.log("================================================================================================================")
+
+console.log(alunos.slice(0, -1));
+
+console.log(typeof alunos);// tipo de alunos
+
+console.log(alunos instanceof Array);// perguntando se é uma instancia de array
 
 
 
