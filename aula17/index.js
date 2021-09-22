@@ -52,16 +52,17 @@ console.log(alunos.slice(0, -1));
 
 console.log(typeof alunos);// tipo de alunos
 
-console.log(alunos instanceof Array);// perguntando se é uma instancia de array
+console.log(alunos instanceof Array);// perguntando se é uma instancia de array3
 
+function number(n, n1) {
 
+    if (n > n1 && n1 > n) {
+        return true;
+    } else {
+        return false;
+    }
 
+}
 
-
-
-
-
-
-
-
+console.log(number(2, 3))
 
