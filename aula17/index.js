@@ -1,7 +1,16 @@
 const pessoas = [
     {
         "nome": "Erick",
-        "idade": 21
+        "idade": 21,
+        "password": 88324207,
+        "username": "erick.farias"
+    },
+
+    {
+        "nome": "José",
+        "idade": 12,
+        "password": "jose123",
+        "username": "JoséSouza"
     }
 ];
 
@@ -63,6 +72,14 @@ function number(n, n1) {
     }
 
 }
+
+/*
+
+    || --> ou --> v
+    && --> e --> ^
+    
+*/
+
 
 console.log(number(2, 3))
 

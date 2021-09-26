@@ -1,3 +1,4 @@
+
 function soma(n = 1, n1 = 1) {
     const resultado = n + n1;
     return resultado;
@@ -41,4 +42,3 @@ console.log(raiz(25));
 const raiz3 = a => a ** 1/3//raiz cúbica
 
 console.log(raiz3(27));
-
