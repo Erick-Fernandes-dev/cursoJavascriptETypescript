@@ -15,6 +15,8 @@ let listOfName = [
 
 ]
 
+console.log(listOfName.length)
+
 console.log()
 
 console.log(listOfName[aleatorio]);
