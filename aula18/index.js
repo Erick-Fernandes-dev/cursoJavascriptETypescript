@@ -3,7 +3,6 @@ function soma(n = 1, n1 = 1) {
     const resultado = n + n1;
     return resultado;
 
-<<<<<<< HEAD
 }
 
 console.log(soma(4));
@@ -43,7 +42,6 @@ console.log(raiz(25));
 const raiz3 = a => a ** 1/3//raiz cúbica
 
 console.log(raiz3(27));
-=======
 
 // saudacao("Erick")
 // saudacao("José")
@@ -78,4 +76,3 @@ console.log(soma(2, 2));
 console.log(soma(3, 1));
 console.log(soma(5, 10));
 
->>>>>>> b608835d5abdd74b17a8800e165fc3b297ed468e
