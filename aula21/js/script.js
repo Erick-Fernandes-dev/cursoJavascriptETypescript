@@ -5,8 +5,6 @@ function meuEscopo () {
 
     const pessoas = [];
 
-
-
     //O evento é disparado quando o usuário envia um formulário
     /** 
     form.onsubmit = function (evento) {
