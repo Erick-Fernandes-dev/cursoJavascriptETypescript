@@ -1,5 +1,5 @@
 //                   
-let umaString = "Um \"Texto\""; // serve para espacar um caractere
+let umaString = "Um \"Texto\""; // serve para espaçar um caractere
 
 //                01234567
 let umaString2 = "Um texto";

@@ -55,7 +55,21 @@ const pessoa1 = {
     }
 };
 
+
+
 pessoa1.fala("Jose", "Manoel", 11)*/
+
+const p1 = {
+    
+    about(name, midleName, age) {
+
+        this.name = name;
+        this.midleName = midleName;
+        this.age = age;
+
+    }
+
+}
 
 const pessoa1 = {
     nome: "Luiz",
